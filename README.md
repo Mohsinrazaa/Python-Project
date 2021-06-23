@@ -11,7 +11,7 @@ This is mini project for class library code in python
 ## Project description
 
 * **pyttsx3**
-* 
+
 pyttsx3 is a text-to-speech conversion library in Python. Unlike alternative libraries, it works offline, and is compatible with both Python 2 and 3
 
 * Installation
@@ -37,8 +37,8 @@ engine.runAndWait()`
 
 * **Usage :**
 
-import speech_recognition as sr
-engine = pyttsx3.init('sapi5')
-voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[0].id)
-Recognize speech input from the microphone
+`import speech_recognition as sr`
+`engine = pyttsx3.init('sapi5')`
+`voices = engine.getProperty('voices')`
+`engine.setProperty('voice', voices[0].id)`
+`Recognize speech input from the microphone`
